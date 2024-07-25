@@ -1,0 +1,38 @@
+body{
+    background-image:url(unnamed.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    box-shadow: inset;
+}
+div{
+    background-color: rgba(82, 151, 162, 0.42);
+    width: 300px;
+    margin: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+}
+button{
+    background-color: black;
+    color: aqua;
+    transform: .5s;
+}
+button:hover{
+    background-color: springgreen;
+    color: blue;
+    transition: 4s;
+}
+p{
+color: aqua;
+transform: .2s;
+}
+p hover{
+    color: springgreen;
+    transition: 3s;
+}
